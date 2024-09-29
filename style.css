@@ -1,3 +1,42 @@
-.container{
-    background: blue;
+.nav{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 30px;
+    background: hsla(0, 0%, 100%, 0.9);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+    box-shadow: 0 0 10px hsla(0, 0%, 100%, 0.05) ;
+    z-index: 5;
+
+
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.nav-bar{
+    position: static;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;    
+    gap: 30px
+}
+
+.link{
+    color: black;
+    font-size: 22px;
+    transition: 0.5s ease-in ;
+}
+
+.link:hover{
+    color: orange;
 }
