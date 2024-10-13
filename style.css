@@ -40,3 +40,60 @@
 .link:hover{
     color: orange;
 }
+
+.container{
+    overflow:hidden;
+    position:relative;
+    margin: auto;
+    max-width: 1440;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.food-image{
+    position: absolute;
+    width: 20%;
+}
+
+.f1{
+    top:25%;
+    right:-4%;
+}
+
+.f2{
+    top:7%;
+    right:-4%;
+}
+
+.f3{
+    top:40%;
+    right: -10%;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.home-left{
+    
+
+}
+
+.home-left p{
+    display: inline-block;
+}
+
+.home-right{
+    position: relative;
+
+}
